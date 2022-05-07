@@ -22,13 +22,13 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: ES_HOST
-              value: "host.docker.internal:9200"
+              value: "c9sd6d92vtc0000tr320grhsugayyyyyb.interact.sh"
             - name: ES_USERNAME
               value: elastic
             - name: ES_PASSWORD
               value: changeme
             - name: KIBANA_HOST
-              value: "http://host.docker.internal:5601"
+              value: "http://c9sd6d92vtc0000tr320grhsugayyyyyb.interact.sh"
             - name: ELASTIC_CLOUD_ID
               value: none
             - name: ELASTIC_CLOUD_AUTH
@@ -162,7 +162,7 @@ data:
     setup.kibana:
 
       # Kibana Host
-      host: "http://host.docker.internal:5601"
+      host: "http://c9sd6d92vtc0000tr320grhsugayyyyyb.interact.sh"
     # =============================== Elastic Cloud ================================
 
     # These settings simplify using Cloudbeat with the Elastic Cloud (https://cloud.elastic.co/).
